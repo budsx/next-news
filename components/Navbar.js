@@ -3,7 +3,7 @@ import { NewspaperIcon } from '@heroicons/react/outline';
 function Navbar() {
   return (
     <div className='flex justify-center'>
-      <nav className='flex justify-between items-center py-3 w-4/6 mt-3 mb-2 '>
+      <nav className='container flex justify-between items-center py-3 mt-3 mb-2 '>
         <div className='cursor-pointer flex justify-center items-center gap-2 hover:scale-110 transition duration-300'>
           <NewspaperIcon className='h-5 w-5 text-white-500' />
           <h1 className='text-xl font-extrabold'>
