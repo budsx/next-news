@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import Results from '../components/Results';
 
@@ -12,7 +13,8 @@ export default function Home({ results }) {
       </Head>
 
       <Navbar />
-      <Results results={results} />
+      <Results key={results} results={results} />
+      <Footer />
     </div>
   );
 }
